@@ -4,8 +4,8 @@
    background-color: #008080;
  }
  
- ul {
-   background-color: white;
+ li {
+   background-color: #008080;
    text-align: center;
  }
 
@@ -17,3 +17,5 @@ h1{
    background-color: #008080;
    color:#DCDCDC;
  }
+ 
+ 
