@@ -1,8 +1,3 @@
-/*html {
-   background-color: #008080;
-   margin: 0 auto;
-   padding: 0px;
- }*/
  body {
    width: 100%;
    margin: 0 auto;
@@ -11,10 +6,13 @@
  
  ul {
    background-color: white;
-   /*text-align: center;*/
+   text-align: center;
  }
 
-
+h1{
+  background-color:#00C0C0;
+  text-align: center;
+}
  .cuerpo-principal {
    background-color: #008080;
    color:#DCDCDC;
