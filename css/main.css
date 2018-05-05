@@ -13,6 +13,8 @@ h1{
   background-color:#00C0C0;
   text-align: center;
   color:black;
+  margin: 10px auto 10px auto;
+   width: 1000px;
 }
  .cuerpo-principal {
    background-color: #008080;
