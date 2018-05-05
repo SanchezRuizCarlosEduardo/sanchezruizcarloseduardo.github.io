@@ -1,12 +1,12 @@
-html {
+/*html {
    background-color: #008080;
    margin: 0 auto;
    padding: 0px;
- }
+ }*/
  body {
    width: 100%;
    margin: 0 auto;
-   background-color: white;
+   background-color: #008080;
  }
  
  ul {
