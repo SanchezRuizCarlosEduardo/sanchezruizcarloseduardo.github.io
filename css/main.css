@@ -1,14 +1,14 @@
 html {
-   background-color: #423C40;
+   background-color: white;
    margin: 0 auto;
    padding: 0px;
  }
  body {
    width: 100%;
    margin: 0 auto;
-   background-color: #423C40;
+   background-color: white;
  }
- .contenedor {
+ .listaObras {
    overflow: hidden;
  }
  .menu-navegacion {
