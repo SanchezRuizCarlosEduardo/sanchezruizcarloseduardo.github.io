@@ -2,7 +2,7 @@
  Clases por defecto
  */
 html {
-   background-color:white;
+   background-color:#008080;
    margin: 0 auto;
    padding: 0px;
  }
@@ -43,12 +43,21 @@ h2{
 h3{
   text-align:center;
 }
+dt{
+  color:#00FFFF;
+}
+dd{
+  color:red;
+}
 
 /*Contenido de cada lectura:*/
  .cuerpo-principal {
    width: 900px;
    margin: 30px auto 0px auto;
    overflow: hidden;
+   background-image:url("../imagenes/libropoe.jpg");
+   background-size:100% 100%; 
+   color:red;
    
  }
  .listacuentos {
@@ -57,12 +66,13 @@ h3{
    overflow: hidden;
  }
  .cuento{
-   color:black;
+   color:white;
    overflow:scroll;
    height: 380px;
    width: 960px;
    margin-left:300px;
    margin-top:0px;
+   background-color:#004040; 
 }
 
 /*Imagenes:*/
@@ -82,25 +92,34 @@ h3{
   width:350px;
   margin-left:50px;
   margin-right:50px;
+  margin-top:50px;
   float:left;
+  background-color:#00C0C0;
 }
 .critica{
   width:350px;
   margin-left:50px;
   margin-right:50px;
+  margin-top:50px;
   margin-bottom:100px;
   float:left;
+  background-color:#00C0C0;
 }
 .conclusion{
   width:350px;
   margin-left:50px;
   margin-right:50px;
+  margin-top:50px;
   margin-bottom:100px;
   float:left;
+  background-color:#00C0C0;
 }
 .Glosario{
+  margin-top:400px;
   width:450px;
   margin-left:450px;
+  background-image:url("../imagenes/libropoe.jpg");
+  background-size:100% 100%; 
   
 }
 .pie{
