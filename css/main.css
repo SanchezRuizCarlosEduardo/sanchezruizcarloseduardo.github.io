@@ -1,26 +1,110 @@
+/*
+ Clases por defecto
+ */
+html {
+   background-color:white;
+   margin: 0 auto;
+   padding: 0px;
+ }
  body {
    width: 100%;
-   /*margin: 0 auto;*/
-   background-color: #008080;
+   margin: 0 auto;
+   background-color: transparent;
+   color:color: #FFFFCC;  
  }
- 
- ul,li {
-   background-color: #008080;
-   text-align: center;
- }
-
 h1{
-  background-color:#00C0C0;
-  text-align: center;
-  color:black;
-  margin: 10px auto 10px auto;
-   width: 1000px;
+  color:white;
+  text-align:center;
+  background-color:black;
 }
+li{
+  display:inline;
+  background:transparent;
+  margin-left:20px;
+  margin-right:20px;
+}
+ul{
+  background-color:#A0A0A0;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+h2{
+  background-color:black;
+  color:white;
+  width:190px;
+  margin-left:30px;
+  margin-right:50px;
+  float:left;
+  text-align:center;
+  margin-bottom:0px;
+}
+h3{
+  text-align:center;
+}
+
+/*Contenido de cada lectura:*/
  .cuerpo-principal {
-   background-color: #008080;
-   color:#DCDCDC;
-   margin: 10px auto 10px auto;
-   width: 1000px;
+   width: 900px;
+   margin: 30px auto 0px auto;
+   overflow: hidden;
+   
  }
- 
+ .listacuentos {
+   width: 900px;
+   margin: 30px auto 0px auto;
+   overflow: hidden;
+ }
+ .cuento{
+   color:black;
+   overflow:scroll;
+   height: 380px;
+   width: 960px;
+   margin-left:300px;
+   margin-top:0px;
+}
+
+/*Imagenes:*/
+.imagenCuento{
+  height:300px; 
+  width:250px;
+  float: left;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.imagenPoe{
+  margin-left:300px;
+  
+}
+.resena{
+  width:350px;
+  margin-left:50px;
+  margin-right:50px;
+  float:left;
+}
+.critica{
+  width:350px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:100px;
+  float:left;
+}
+.conclusion{
+  width:350px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:100px;
+  float:left;
+}
+.Glosario{
+  width:450px;
+  margin-left:450px;
+  
+}
+.pie{
+   background-color:black;
+}
+
  
